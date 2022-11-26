@@ -1,11 +1,11 @@
 var valido;
 
 function login() {
-    var senha = documents.login-inputs.senha.value;
-    var gmail = documents.login-inputs.gmail.value;
-    var cpf = documents.login-inputs.cpf.value;
-    var rg = documents.login-inputs.rg.value;
-    var codigo = documents.login-inputs.codigo.value;
+    var senha = documents.login.senha.value;
+    var gmail = documents.login.gmail.value;
+    var cpf = documents.login.cpf.value;
+    var rg = documents.login.rg.value;
+    var codigo = documents.login.codigo.value;
 
     gmail = gmail.toLowerCase();
     senha = senha.toLowerCase();
