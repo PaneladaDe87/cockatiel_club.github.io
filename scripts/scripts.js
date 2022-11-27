@@ -1,6 +1,7 @@
 var valido;
 
 function login() {
+    var senha-resposta = 18007402009853199966805300;
     var senha = documents.login.senha.value;
     var gmail = documents.login.gmail.value;
     var cpf = documents.login.cpf.value;
@@ -17,8 +18,8 @@ function login() {
         alert('senha ou email incorretos');
     }
 
-    if (senha = "18007402009853199966805300" && gmail = "null" && cpf = "000.000.000-00" && rg = null && codigo = "000a000a000") {
+    if (senha = senha-resposta && gmail = null && cpf = null && rg = null && codigo = null) {
         valido = 1;
-        window.open="index.html";
+        alert('lol');
     }
 }
